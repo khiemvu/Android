@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_bg" >
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/tvage"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/tvname"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:phoneNumber="false" android:inputType="number"/>
+
+</RelativeLayout>
